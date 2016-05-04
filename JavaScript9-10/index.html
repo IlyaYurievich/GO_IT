@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/prettyCheckable.css">
+        <link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css"><!--Carusel-->
+        <link rel="stylesheet" href="css/jquery.fs.selecter.css"><!--SELECT-->
+
+        <link rel="stylesheet" href="css/style.css"> <!--CSS-->
+
+
+
+        <script src="js/jquery.js"></script><!--Jquery-->
+        <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script><!--Carusel-->
+        <script type="text/javascript" src="js/jcarousel.basic.js"></script><!--Carusel-->
+        <script src="js/jquery.fs.selecter.min.js"></script> <!--SELECT-->
+        <script src="js/modernizr.js"></script>
+        <script src="js/prettyCheckable.min.js"></script>
+
+        <script src="js/main.js"></script><!--JS-->
+    </head>
+    <body>
+    <div class="wrapper clearfix">
+        <!--Carusel-->
+    <div class="jcarousel-wrapper clearfix">
+        <div class="jcarousel ">
+            <ul>
+                <li><img src="img/фото1%20(1).jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/фото1%20(2).jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/фото1%20(3).jpg" width="600" height="400" alt=""></li>
+            </ul>
+        </div>
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+    </div>
+<div class="nav_select clearfix">
+
+
+    <!--Меню-->
+    <nav>
+        <ul class="content">
+            <li><a href="#">Пункт</a></li>
+            <li><a href="#">Пункт</a></li>
+            <li class="dropdown">
+                <a href="#">project</a>
+                <ul class="sub-menu">
+                    <li><a href="#">img</a></li>
+                    <li><a href="#">index.html</a></li>
+                    <li><a href="#">js</a></li>
+                    <li class="dropdown">
+                        <a href="#">css</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">jcarousel</a></li>
+                            <li class="dropdown">
+                                <a href="#">style.css</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Nav</a></li>
+                                    <li><a href="#">Nav</a></li>
+                                    <li><a href="#">Nav</a></li>
+                                    <li><a href="#">Nav</a></li>
+                                    <li><a href="#">Nav</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">jquery</a></li>
+                            <li><a href="#">select</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">images</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Пункт</a></li>
+            <li><a href="#">Пункт</a></li>
+        </ul>
+    </nav>
+
+
+        <!--Select-->
+    <form action="#" method="get" class="select">
+        <div class="row">
+            <select name="num">
+                <option value="1">Первый</option>
+                <option value="2">Второй</option>
+                <option value="3">Третий</option>
+                <option value="4">Четвертый</option>
+            </select>
+        </div>
+    </form>
+</div>
+
+
+        <!--Checkbox_CSS-->
+        <div class="checkbox">
+            <ul>
+                <li>
+                    <input type="checkbox" id="c1" name="cc" />
+                    <label for="c1"><span></span>Check Box 1</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="c2" name="cc" />
+                    <label for="c2"><span></span>Check Box 2</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="c3" name="cc" />
+                    <label for="c3"><span></span>Check Box 3</label>
+                </li>
+            </ul>
+            </div>
+
+                    <!--CHECKBOX (jquery)-->
+        <div class="js-checkbox-wrap  css-checkbox">
+            <form class="well">
+                <div class="input-wrapper">
+                    <div class="input-wrapper">
+                        <input type="checkbox" class="prettyCheckable" value="0"  data-label="Check Box 1">
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="checkbox" class="prettyCheckable" value="1" id="color2" data-label='Check Box 2' data-color="green" unckecked/>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="checkbox" class="prettyCheckable" value="1" id="color3" data-label='Check Box 3'>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="checkbox" class="prettyCheckable" value="1" id="color4" data-label='Check Box 4'>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+.wrapper .active {
+    background: #ffffff;
+}
+.main {
+    width: 200px;
+    margin: 30px auto;
+    background: #bdbdbd;
+}
+.tabs {
+    margin-left:10px; ;
+}
+.tab {
+    background: #bdbdbd;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 3px 3px 0  0;
+    border-bottom: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -1px;
+}
+.tab.active {
+    border: 2px solid blue;
+    border-bottom: 1px solid #ffffff;
+}
+.tab_item {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+
+.row {
+    position: relative;
+}
+label {
+    width: 100px;
+    display: inline-block;
+}
+form {
+    width: 615px;
+}
+.input-field {
+    width: 215px;
+}
+.tooltip {
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1;
+    width: 250px;
+    left:330px;
+    top: -4px;
+    right: 10px;
+}
+.content {
+    width: 700px;
+    margin: 0 auto;
+}

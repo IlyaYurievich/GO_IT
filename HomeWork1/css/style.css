@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1018px;
+    background: #eee;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content{
+    width: 512px;
+    margin: 0 auto;
+    background: #fff;
+
+}
+header{
+    text-align: center;
+    padding-top: 52px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid #7a7a7a;
+}
+.frontend{
+    margin: 26px 50px;
+    border-bottom: 1px solid #7a7a7a;
+}
+.frontend p{
+    padding-left: 12px;
+    padding-bottom: 23px;
+}
+.frontend ul{
+    padding: 9px 36px;
+}
+.frontend li{
+    padding-bottom: 10px;
+}
+.contact{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 13px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #7a7a7a;
+}
+.contact_tell p{
+padding-bottom: 8px;
+}
+.contact_vk p{
+    padding-top: 33px;
+    padding-bottom: 8px;
+}
+footer{
+    padding-top: 26px;
+    padding-left: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 65px;
+    line-height: 24px;
+}

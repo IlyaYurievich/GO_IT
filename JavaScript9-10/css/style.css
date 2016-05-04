@@ -1,0 +1,163 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+/*Menu*/
+#wrapper {
+    min-width:1000px;
+}
+nav {
+    background: blue;
+    width: 500px;
+    float: left;
+    margin-left: 36px;
+
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+nav li ul {
+    background: blue;
+    position:absolute;
+    left:0;
+    top:40px;
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px;
+    margin:0;
+}
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: yellow;
+}
+nav li li a {
+    border-bottom: solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
+
+
+
+/*Jcarousel*/
+.jcarousel-wrapper {
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel li {
+    float: left;
+}
+
+/*SELECT*/
+.select {
+    float: right;
+    width: 464px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+/*checkbox*/
+.checkbox input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color: black;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+.checkbox input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+.checkbox input[type="checkbox"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -19px top no-repeat;
+}
+li {
+    list-style: none;
+}
+
+
+/*CHECKBOX JQUERY*/
+.well{
+    width: 100%;
+}
+
+
+.checkbox-wrap,
+.css-checkbox,
+.select-box{
+    width: 400px;
+    float: left;
+}

@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing = border-box;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body{
+	background: url(../img/fon.png) no-repeat;
+	background-size: cover;
+}
+header{
+	background: url("../img/bg-color.png");
+	margin-bottom: 110px;
+}
+.ola {
+	margin-right: 20px;
+	padding: 12px;
+	float: right;
+	color: #fff;
+}
+.ola a {
+	color: #fff;
+	padding: 0 4px;
+}
+.flag {
+	position: relative;
+	padding: 12px 17px 12px 50px;
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	border-left: 1px solid #56a2dc;
+}
+.icon {
+	display: block;
+	position: absolute;
+	left: 20px;
+	margin: 0 auto;
+	top: 8px;
+	bottom: 0;
+	background: url(../img/flag.png) no-repeat;
+	width: 21px;
+	height: 23px;
+}
+.header ul{
+	margin-left: 427px;
+}
+.header li{
+	display: inline-block;
+	list-style: none;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+	padding:12px 27px;
+	text-decoration: none;
+	color: rgb(96, 181, 237);
+}
+.olaa :hover {
+	 background: #4eabda;
+ }
+ .flagg :hover {
+	 background: #4eabda;
+ }
+.header li:hover{
+	color: #fff;
+	background: #4eabda;
+}
+.content{
+width: 562px;
+margin: 0 auto;
+}
+.cadastre{
+	text-align: center;
+	position: relative;
+	
+	background: rgba(20, 21, 10, 0.63);
+	padding: 10px 0 10px 0;
+	color: #fff;
+	margin-bottom: 2px;
+}
+.form{
+	width:562px;
+	position: relative;
+	margin: 0 auto;
+	background: rgba(20, 21, 10, 0.63);
+	text-align: center;
+}
+.facebook button{
+	background: url("../img/f.png") no-repeat;
+	padding:8px 67px;
+	border: none;
+	color:#fff;
+	border-radius:5px;
+	cursor: pointer;
+}
+.facebook{
+	margin: 0 auto;
+display: inline-block;
+padding-top: 60px;
+}
+.line {
+	display: inline-block;
+	width: 43%;
+	margin-top: 37px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000000;
+}
+.between-line {
+	display: inline-block;
+	padding: 30px 2px;
+	color: #999999;
+	font-size: 14px;
+}
+.pole{
+	margin: 0 auto;
+}
+.pole li{
+	list-style:none;
+	padding-bottom:20px;
+}
+.pole li input{
+	width:248px;
+	color: #ffffff;
+	padding: 10px 10px;
+	background:black;
+	border: none;
+}
+.pole li input:focus{
+	background: #1b5288;
+	box-shadow: 0 0 30px  #4986ad;
+}
+.checkbox{
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.pole button{
+	padding: 10px 19px;
+	border-radius: 5px;
+	border: none;
+	background: #307ec6;
+	color: #fff;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.pole p{
+	font-family: Tahoma;
+	color:  #cccccc;
+	font-size: 11px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

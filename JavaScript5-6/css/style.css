@@ -1,0 +1,15 @@
+.wrapper {
+    text-align: center;
+    padding: 10px 10px;
+    background: greenyellow;
+}
+.timer-box {
+    font-size: 25px;
+}
+button {
+    padding: 10px 50px;
+    background: blue;
+}
+.split-box {
+    background: red;
+}
