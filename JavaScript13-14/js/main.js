@@ -90,8 +90,8 @@ $(function() {
       var rightAnswers = [];
       for (var i = 0; i < myData.categories.length; i++) {
          for (var j = 0; j < myData.categories[i].variant.length; j++) {
-            var currentAnswer = myData.categories[i].variant[j].rigth;
-            rightAnswers.push(currentAnswer);
+            var currentAnswer = myData.categories[i].variant[j].truthful;
+            truthfulAnswers.push(currentAnswer);
          }
       }
 
@@ -116,13 +116,5 @@ $(function() {
       $('input[type="checkbox"]').each(function() {
          $(this).removeAttr("checked");
       });
-
    };
-
-   function hideModal() {
-      $overlay.remove();
-      $modal.removeClass('show')
-   }
-
-   $('.js-verify').on('click', showModal);
 });

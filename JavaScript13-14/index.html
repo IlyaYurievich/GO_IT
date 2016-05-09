@@ -1,13 +1,16 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/main.js"></script>
 </head>
-<body>
 
-<script type="text/html" id='test'>
+<body>
+    <script type="text/html" id='test'>
             <form class="test" action="">
                 <p class="title"><%= data.pageTitle %></p>
                 <% for (var i = 0; i < data.categories.length; i++ ) { %>
@@ -23,7 +26,12 @@
                 <input  class="js-verify" type="submit" value="<%= data.result %>">
             </form>
     </script>
-<script src="js/tmpl.js"></script>
-<script src = "js/main.js"></script>
+
+<div class="modal js-modal">
+   <div class="js-close close-modal">Close</div>
+   <div class="result js-result"></div>
+</div>
+
+
 </body>
 </html>

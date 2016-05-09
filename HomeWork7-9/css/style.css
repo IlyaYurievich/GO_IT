@@ -60,6 +60,11 @@ body, html {
 .dropdown {
   display: none;
 }
+.active {
+    float: left;
+    padding-right: 30px;
+    list-style: none;
+}
 .menu__item {
   display: inline-block;
   padding-right: 30px;
@@ -68,6 +73,7 @@ body, html {
     text-transform: uppercase;
   font-size: 24px;
   color: #fff;
+      text-decoration: none;
 }
 .menu__link:hover {
     border-bottom: 2px solid #edbfff;
@@ -114,7 +120,7 @@ body, html {
 }
 
 .section_two {
-    padding-top: 80px;
+    padding-top: 44px;
     padding-bottom: 66px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#745083+0,322539+100 */
@@ -135,7 +141,7 @@ body, html {
 }
 
 .title {
-    font-family: LeagueGothic;
+    font-family: LeagueGothic sans-serif;
     color: #ffffff;
     font-size: 30px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
@@ -143,7 +149,7 @@ body, html {
 }
 
 .block span {
-    font-family: LeagueGothic;
+    font-family: LeagueGothic sans-serif;
     color: #ffffff;
     font-size: 18px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
@@ -479,6 +485,10 @@ body, html {
     .menu_li {
         display: none;
     }
+    .dropdown {
+    
+    text-align: center;
+}
     
     .header {
         text-align: center;
