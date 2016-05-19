@@ -1,11 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-ul {
-    text-decoration: none;
-    padding-left: 0;
+* {
     list-style: none;
 }
+body {
+	background: turquoise;
+}
+.test {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+label {
+	cursor: pointer;
+}
+ul, p {
+	font-family: Tahoma,Arial,sans-serif;
+    font-size: 24px;
+}
 
+.modal {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 135px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    background: grey;
+    color: #fff;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.show {
+	display: block;
+}
+
+.close-modal {
+    position: relative;
+    display: inline-block;
+    background: #eee;
+    float: right;
+    padding: 5px 21px;
+    z-index: 1;
+    color: #000;
+    cursor: pointer;
+    text-align: right;
+    
+}
+
+.result {
+	color: white;
+    padding: 30px;
+    font-size: 30px;
+}

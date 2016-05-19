@@ -2,45 +2,44 @@ $(function() {
    'use strict;'
 
    var data = {
-      pageTitle: 'Тест по програмированию',
 
       categories: [{
-         questionName: "Мальчик заплатил за бутылку с пробкой 11 рублей. Бутылка стоит на 10 рублей больше, чем пробка. Сколько стоит пробка? ",
+         questionName: "Правильный ответ 3",
          variant: [{
-            answer: '1грн',
+            answer: '1',
             rigth: false
          }, {
-            answer: '50 копеек',
+            answer: '2',
+            rigth: false
+         }, {
+            answer: '3',
             rigth: true
-         }, {
-            answer: '2грн',
-            rigth: false
          }],
          inputName: ['11', '12', '13']
       }, {
-         questionName: "По чему ходят часто, а ездят редко? ",
+         questionName: "Правильный ответ 2",
          variant: [{
-            answer: 'По лестнице',
+            answer: '1',
+            rigth: false
+         }, {
+            answer: '2',
             rigth: true
          }, {
-            answer: 'По дороге',
-            rigth: true
-         }, {
-            answer: 'По полю',
+            answer: '3',
             rigth: false
          }],
          inputName: ['21', '22', '23']
       }, {
-         questionName: "Идет то в гору, то с горы, но остается на месте. ",
+         questionName: "Правильный ответ 1?",
 
          variant: [{
-            answer: 'Часы',
+            answer: '1',
             rigth: true
          }, {
-            answer: 'Дорога',
-            rigth: true
+            answer: '2',
+            rigth: false
          }, {
-            answer: 'Дом',
+            answer: '3',
             rigth: false
          }],
          inputName: ['31', '32', '33']
@@ -52,7 +51,7 @@ $(function() {
    var myData = JSON.parse(page);
    //end of localStorage end object
 
-   //tamplate 
+   //template 
 
    var html = $('#test').html();
    var $body = $('body');
@@ -63,7 +62,7 @@ $(function() {
 
    $body.append(content);
 
-   //end tamplate
+   //end template
 
 
    //modal window
@@ -80,7 +79,7 @@ $(function() {
       $body.append($overlay);
       $modal.addClass('show');
 
-      // FIND ALL INPUT
+      // FIND ALL INPUTS
       $('.block').each(function() {
          var $that = $(this);
          $that.find('input[type="checkbox"]');
@@ -90,8 +89,8 @@ $(function() {
       var rightAnswers = [];
       for (var i = 0; i < myData.categories.length; i++) {
          for (var j = 0; j < myData.categories[i].variant.length; j++) {
-            var currentAnswer = myData.categories[i].variant[j].truthful;
-            truthfulAnswers.push(currentAnswer);
+            var currentAnswer = myData.categories[i].variant[j].rigth;
+            rightAnswers.push(currentAnswer);
          }
       }
 
@@ -107,14 +106,23 @@ $(function() {
 
       var result = JSON.stringify(givenAnswers) === JSON.stringify(rightAnswers);
       if (result) {
-         $result.text('Congratulations, successfully!')
+         $result.text('Правильно!')
       } else {
-         $result.text('Unsuccessful');
+         $result.text('Попробуй еще раз!!!');
+         
       }
 
       //delete checked
       $('input[type="checkbox"]').each(function() {
          $(this).removeAttr("checked");
       });
+
    };
+
+   function hideModal() {
+      $overlay.remove();
+      $modal.removeClass('show')
+   }
+
+   $('.js-verify').on('click', showModal);
 });
