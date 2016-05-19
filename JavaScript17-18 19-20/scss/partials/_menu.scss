@@ -1,0 +1,47 @@
+.menu {
+	background: #2a2d32;
+	margin-bottom: 40px;
+}
+.nav {
+	float: left;
+}
+.nav li {
+	float: left;
+	padding: 18px 40px 18px 40px;
+	border-right: 1px solid black;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 20px;
+}
+.nav li a:hover {
+	color: #f4b60d;
+}
+.search {
+    float: right;
+    width: 256px;
+    margin: 6px 10px;
+    border: 1px solid black;
+    background: #35383c;
+}
+.search input {
+    padding: 13px 7px;
+    background: #35383c;
+    border: none;
+    color: #248cec;
+}
+.search button {
+    padding: 24px 22px 15px 29px;;
+    border: none;
+    background: #35383c;
+    cursor: pointer;
+    margin-left: 15px;
+    background: url("../img/search.png") no-repeat 50%;
+    border-left: 1px solid black;
+}
+.search button:focus {
+    border: 1px solid #5d6063;
+}
