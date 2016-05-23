@@ -1,0 +1,53 @@
+.header {
+	padding-bottom: 35px;
+}
+.logo {
+	float: left;
+	margin-right: 785px;
+
+}
+.network li {
+	display: inline-block;
+	float: left;
+	padding: 15px 0 0 15px;
+}
+.facebook {
+	@include retina-sprite($facebook-group);
+	display: block;
+	&:hover {
+	@include retina-sprite($facebook_hover-group);
+	display: block;
+	}
+}
+
+.twitter {
+	@include retina-sprite($twitter-group);
+	display: block;
+	&:hover {
+	@include retina-sprite($twitter_hover-group);
+	display: block;
+	}
+}
+.linkedin {
+	@include retina-sprite($linkedin-group);
+	display: block;
+	&:hover {
+	@include retina-sprite($linkedin_hover-group);
+	display: block;
+	}
+}
+.rss {
+	@include retina-sprite($rss-group);
+	display: block;
+	&:hover {
+	@include retina-sprite($rss_hover-group);
+	display: block;
+	}
+}
+.skype {
+	@include retina-sprite($skype-group);
+	display: block;&:hover {
+	@include retina-sprite($skype_hover-group);
+	display: block;
+	}
+}

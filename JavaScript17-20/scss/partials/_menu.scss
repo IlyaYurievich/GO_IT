@@ -1,0 +1,54 @@
+.menu {
+	background: #2a2d32;
+	margin-bottom: 40px;
+}
+.nav {
+	float: left;
+}
+.nav li {
+	float: left;
+	    
+	border-right: 1px solid black;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+    display: block;
+    padding: 18px 40px 17px 40px;
+}
+.nav li a:hover {
+	color: $yellow;
+}
+.search {
+    float: right;
+	margin: 5px 10px;
+    border: 1px solid black;
+    background: #35383c;
+}
+.nav li.active {
+    background: $blue;
+}
+.search input {
+    width: 185px;
+    padding: 9px 7px;
+    background: #35383c;
+    border: none;
+    color: $blue;
+    font-size: 13px;
+}
+.search button {
+    padding: 28px 22px 15px 29px;;
+    border: none;
+    background: #35383c;
+    cursor: pointer;
+    background: url("../img/search.png") no-repeat 50%;
+    
+}
+input[type="text"]:focus { outline: none; }
+
+search button:focus {
+    border: 1px solid #5d6063;
+}

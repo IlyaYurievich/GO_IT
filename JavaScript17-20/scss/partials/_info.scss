@@ -1,0 +1,40 @@
+.info {
+    padding-bottom: 85px;
+}
+.block_one {
+    float: left;
+}
+.block_one {
+    font-family: 'ubuntumedium' ;
+    font-size: 90px;
+    color:  #efeff0;
+    width: 10%;
+    padding-left: 20px;
+}
+.block_two {
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 23%;
+}
+.power {
+    font-family: 'ubuntumedium' sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+.cum {
+    font-size: Arial;
+    font-size: 13px;
+    color:  #8a8a8a;
+    padding-bottom: 10px;
+}
+.block_two a {
+    font-family: 'ubuntumedium' sans-serif;
+    font-size: 13px;
+    color: black;
+    padding-right: 10px;
+}
+.block_two a:hover {
+    color: $blue;
+}

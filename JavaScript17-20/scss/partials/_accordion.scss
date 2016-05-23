@@ -1,0 +1,38 @@
+.accordion_title {
+background:  #fff url("../img/+.png") no-repeat 3% 50%;
+	font-family: Ubuntu sans-serif;
+	color:  black;
+	font-size: 13px;
+	display: block;
+	    padding: 12px 45px;
+	    cursor: pointer;
+	    margin-bottom: 5px;
+	    
+}
+.accordion_title span {
+	border-left: 1px solid #e8e8e8;
+	 padding: 12px 10px;
+	font-family: Ubuntu sans-serif;
+    color: #2a2d32;
+    font-size: 13px;
+}
+.accordion p {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 37px;
+	font-family: Arial ;
+	color:  #8a8a8a;
+	font-size: 13px;
+
+}
+.accordion_title.active {
+	padding: 12px 45px;
+	color: #fff;
+    padding: 12px 45px;
+    background: #f4b60d url("../img/-.png") no-repeat 3% 50%;
+	
+}
+.accordion_title span.active {
+	border-left: 1px solid #e8e8e8;
+	 padding: 12px 10px;
+}

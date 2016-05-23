@@ -1,0 +1,43 @@
+.images {
+    background: #2a2d32;
+    padding-top: 50px;
+    /*padding-bottom: 65px;*/
+}
+.images p {
+    font-family: 'ubuntumedium' sans-serif;
+    color:  #ffffff;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.images_foto {
+    float: left;
+    padding: 0 15px 0 15px;
+}
+.tire {
+    text-align: center;
+}
+.tire a {
+    font-family: 'ubuntumedium' sans-serif;
+    color:  #ffffff;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.tire a:hover {
+    color:  $yellow;
+}
+
+
+.images_foto .mask {
+   top: 1144px;
+    display: block;
+    width: 261px;
+    height: 260px;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    
+}
+.images_foto:hover .mask {
+   opacity: 1;
+   background: rgba(46,145,234,0.8);
+}
+

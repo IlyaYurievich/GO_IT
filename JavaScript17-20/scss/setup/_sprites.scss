@@ -1,0 +1,454 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$email-name: 'email';
+$email-x: 78px;
+$email-y: 25px;
+$email-offset-x: -78px;
+$email-offset-y: -25px;
+$email-width: 16px;
+$email-height: 12px;
+$email-total-width: 94px;
+$email-total-height: 94px;
+$email-image: '../images/sprites.png';
+$email: (78px, 25px, -78px, -25px, 16px, 12px, 94px, 94px, '../images/sprites.png', 'email', );
+$facebook-name: 'facebook';
+$facebook-x: 52px;
+$facebook-y: 0px;
+$facebook-offset-x: -52px;
+$facebook-offset-y: 0px;
+$facebook-width: 16px;
+$facebook-height: 16px;
+$facebook-total-width: 94px;
+$facebook-total-height: 94px;
+$facebook-image: '../images/sprites.png';
+$facebook: (52px, 0px, -52px, 0px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'facebook', );
+$facebook-hover-name: 'facebook_hover';
+$facebook-hover-x: 26px;
+$facebook-hover-y: 0px;
+$facebook-hover-offset-x: -26px;
+$facebook-hover-offset-y: 0px;
+$facebook-hover-width: 16px;
+$facebook-hover-height: 16px;
+$facebook-hover-total-width: 94px;
+$facebook-hover-total-height: 94px;
+$facebook-hover-image: '../images/sprites.png';
+$facebook-hover: (26px, 0px, -26px, 0px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'facebook_hover', );
+$iphone-name: 'iphone';
+$iphone-x: 0px;
+$iphone-y: 78px;
+$iphone-offset-x: 0px;
+$iphone-offset-y: -78px;
+$iphone-width: 10px;
+$iphone-height: 16px;
+$iphone-total-width: 94px;
+$iphone-total-height: 94px;
+$iphone-image: '../images/sprites.png';
+$iphone: (0px, 78px, 0px, -78px, 10px, 16px, 94px, 94px, '../images/sprites.png', 'iphone', );
+$linkedin-name: 'linkedin';
+$linkedin-x: 78px;
+$linkedin-y: 0px;
+$linkedin-offset-x: -78px;
+$linkedin-offset-y: 0px;
+$linkedin-width: 16px;
+$linkedin-height: 15px;
+$linkedin-total-width: 94px;
+$linkedin-total-height: 94px;
+$linkedin-image: '../images/sprites.png';
+$linkedin: (78px, 0px, -78px, 0px, 16px, 15px, 94px, 94px, '../images/sprites.png', 'linkedin', );
+$linkedin-hover-name: 'linkedin_hover';
+$linkedin-hover-x: 26px;
+$linkedin-hover-y: 26px;
+$linkedin-hover-offset-x: -26px;
+$linkedin-hover-offset-y: -26px;
+$linkedin-hover-width: 16px;
+$linkedin-hover-height: 16px;
+$linkedin-hover-total-width: 94px;
+$linkedin-hover-total-height: 94px;
+$linkedin-hover-image: '../images/sprites.png';
+$linkedin-hover: (26px, 26px, -26px, -26px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'linkedin_hover', );
+$location-name: 'location';
+$location-x: 78px;
+$location-y: 47px;
+$location-offset-x: -78px;
+$location-offset-y: -47px;
+$location-width: 12px;
+$location-height: 16px;
+$location-total-width: 94px;
+$location-total-height: 94px;
+$location-image: '../images/sprites.png';
+$location: (78px, 47px, -78px, -47px, 12px, 16px, 94px, 94px, '../images/sprites.png', 'location', );
+$rss-name: 'rss';
+$rss-x: 52px;
+$rss-y: 26px;
+$rss-offset-x: -52px;
+$rss-offset-y: -26px;
+$rss-width: 16px;
+$rss-height: 16px;
+$rss-total-width: 94px;
+$rss-total-height: 94px;
+$rss-image: '../images/sprites.png';
+$rss: (52px, 26px, -52px, -26px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'rss', );
+$rss-hover-name: 'rss_hover';
+$rss-hover-x: 0px;
+$rss-hover-y: 52px;
+$rss-hover-offset-x: 0px;
+$rss-hover-offset-y: -52px;
+$rss-hover-width: 16px;
+$rss-hover-height: 16px;
+$rss-hover-total-width: 94px;
+$rss-hover-total-height: 94px;
+$rss-hover-image: '../images/sprites.png';
+$rss-hover: (0px, 52px, 0px, -52px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'rss_hover', );
+$skype-name: 'skype';
+$skype-x: 26px;
+$skype-y: 52px;
+$skype-offset-x: -26px;
+$skype-offset-y: -52px;
+$skype-width: 16px;
+$skype-height: 16px;
+$skype-total-width: 94px;
+$skype-total-height: 94px;
+$skype-image: '../images/sprites.png';
+$skype: (26px, 52px, -26px, -52px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'skype', );
+$skype-hover-name: 'skype_hover';
+$skype-hover-x: 52px;
+$skype-hover-y: 52px;
+$skype-hover-offset-x: -52px;
+$skype-hover-offset-y: -52px;
+$skype-hover-width: 16px;
+$skype-hover-height: 16px;
+$skype-hover-total-width: 94px;
+$skype-hover-total-height: 94px;
+$skype-hover-image: '../images/sprites.png';
+$skype-hover: (52px, 52px, -52px, -52px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'skype_hover', );
+$twitter-name: 'twitter';
+$twitter-x: 0px;
+$twitter-y: 26px;
+$twitter-offset-x: 0px;
+$twitter-offset-y: -26px;
+$twitter-width: 16px;
+$twitter-height: 16px;
+$twitter-total-width: 94px;
+$twitter-total-height: 94px;
+$twitter-image: '../images/sprites.png';
+$twitter: (0px, 26px, 0px, -26px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'twitter', );
+$twitter-hover-name: 'twitter_hover';
+$twitter-hover-x: 0px;
+$twitter-hover-y: 0px;
+$twitter-hover-offset-x: 0px;
+$twitter-hover-offset-y: 0px;
+$twitter-hover-width: 16px;
+$twitter-hover-height: 16px;
+$twitter-hover-total-width: 94px;
+$twitter-hover-total-height: 94px;
+$twitter-hover-image: '../images/sprites.png';
+$twitter-hover: (0px, 0px, 0px, 0px, 16px, 16px, 94px, 94px, '../images/sprites.png', 'twitter_hover', );
+$email-2x-name: 'email@2x';
+$email-2x-x: 156px;
+$email-2x-y: 0px;
+$email-2x-offset-x: -156px;
+$email-2x-offset-y: 0px;
+$email-2x-width: 32px;
+$email-2x-height: 25px;
+$email-2x-total-width: 224px;
+$email-2x-total-height: 136px;
+$email-2x-image: '../images/sprites@2x.png';
+$email-2x: (156px, 0px, -156px, 0px, 32px, 25px, 224px, 136px, '../images/sprites@2x.png', 'email@2x', );
+$facebook-2x-name: 'facebook@2x';
+$facebook-2x-x: 208px;
+$facebook-2x-y: 0px;
+$facebook-2x-offset-x: -208px;
+$facebook-2x-offset-y: 0px;
+$facebook-2x-width: 16px;
+$facebook-2x-height: 33px;
+$facebook-2x-total-width: 224px;
+$facebook-2x-total-height: 136px;
+$facebook-2x-image: '../images/sprites@2x.png';
+$facebook-2x: (208px, 0px, -208px, 0px, 16px, 33px, 224px, 136px, '../images/sprites@2x.png', 'facebook@2x', );
+$facebook-hover-2x-name: 'facebook_hover@2x';
+$facebook-hover-2x-x: 52px;
+$facebook-hover-2x-y: 0px;
+$facebook-hover-2x-offset-x: -52px;
+$facebook-hover-2x-offset-y: 0px;
+$facebook-hover-2x-width: 32px;
+$facebook-hover-2x-height: 32px;
+$facebook-hover-2x-total-width: 224px;
+$facebook-hover-2x-total-height: 136px;
+$facebook-hover-2x-image: '../images/sprites@2x.png';
+$facebook-hover-2x: (52px, 0px, -52px, 0px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'facebook_hover@2x', );
+$iphone-2x-name: 'iphone@2x';
+$iphone-2x-x: 156px;
+$iphone-2x-y: 97px;
+$iphone-2x-offset-x: -156px;
+$iphone-2x-offset-y: -97px;
+$iphone-2x-width: 20px;
+$iphone-2x-height: 32px;
+$iphone-2x-total-width: 224px;
+$iphone-2x-total-height: 136px;
+$iphone-2x-image: '../images/sprites@2x.png';
+$iphone-2x: (156px, 97px, -156px, -97px, 20px, 32px, 224px, 136px, '../images/sprites@2x.png', 'iphone@2x', );
+$linkedin-2x-name: 'linkedin@2x';
+$linkedin-2x-x: 104px;
+$linkedin-2x-y: 104px;
+$linkedin-2x-offset-x: -104px;
+$linkedin-2x-offset-y: -104px;
+$linkedin-2x-width: 32px;
+$linkedin-2x-height: 31px;
+$linkedin-2x-total-width: 224px;
+$linkedin-2x-total-height: 136px;
+$linkedin-2x-image: '../images/sprites@2x.png';
+$linkedin-2x: (104px, 104px, -104px, -104px, 32px, 31px, 224px, 136px, '../images/sprites@2x.png', 'linkedin@2x', );
+$linkedin-hover-2x-name: 'linkedin_hover@2x';
+$linkedin-hover-2x-x: 52px;
+$linkedin-hover-2x-y: 52px;
+$linkedin-hover-2x-offset-x: -52px;
+$linkedin-hover-2x-offset-y: -52px;
+$linkedin-hover-2x-width: 32px;
+$linkedin-hover-2x-height: 32px;
+$linkedin-hover-2x-total-width: 224px;
+$linkedin-hover-2x-total-height: 136px;
+$linkedin-hover-2x-image: '../images/sprites@2x.png';
+$linkedin-hover-2x: (52px, 52px, -52px, -52px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'linkedin_hover@2x', );
+$location-2x-name: 'location@2x';
+$location-2x-x: 156px;
+$location-2x-y: 45px;
+$location-2x-offset-x: -156px;
+$location-2x-offset-y: -45px;
+$location-2x-width: 24px;
+$location-2x-height: 32px;
+$location-2x-total-width: 224px;
+$location-2x-total-height: 136px;
+$location-2x-image: '../images/sprites@2x.png';
+$location-2x: (156px, 45px, -156px, -45px, 24px, 32px, 224px, 136px, '../images/sprites@2x.png', 'location@2x', );
+$rss-2x-name: 'rss@2x';
+$rss-2x-x: 104px;
+$rss-2x-y: 52px;
+$rss-2x-offset-x: -104px;
+$rss-2x-offset-y: -52px;
+$rss-2x-width: 32px;
+$rss-2x-height: 32px;
+$rss-2x-total-width: 224px;
+$rss-2x-total-height: 136px;
+$rss-2x-image: '../images/sprites@2x.png';
+$rss-2x: (104px, 52px, -104px, -52px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'rss@2x', );
+$rss-hover-2x-name: 'rss_hover@2x';
+$rss-hover-2x-x: 0px;
+$rss-hover-2x-y: 104px;
+$rss-hover-2x-offset-x: 0px;
+$rss-hover-2x-offset-y: -104px;
+$rss-hover-2x-width: 32px;
+$rss-hover-2x-height: 32px;
+$rss-hover-2x-total-width: 224px;
+$rss-hover-2x-total-height: 136px;
+$rss-hover-2x-image: '../images/sprites@2x.png';
+$rss-hover-2x: (0px, 104px, 0px, -104px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'rss_hover@2x', );
+$skype-2x-name: 'skype@2x';
+$skype-2x-x: 52px;
+$skype-2x-y: 104px;
+$skype-2x-offset-x: -52px;
+$skype-2x-offset-y: -104px;
+$skype-2x-width: 32px;
+$skype-2x-height: 32px;
+$skype-2x-total-width: 224px;
+$skype-2x-total-height: 136px;
+$skype-2x-image: '../images/sprites@2x.png';
+$skype-2x: (52px, 104px, -52px, -104px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'skype@2x', );
+$skype-hover-2x-name: 'skype_hover@2x';
+$skype-hover-2x-x: 104px;
+$skype-hover-2x-y: 0px;
+$skype-hover-2x-offset-x: -104px;
+$skype-hover-2x-offset-y: 0px;
+$skype-hover-2x-width: 32px;
+$skype-hover-2x-height: 32px;
+$skype-hover-2x-total-width: 224px;
+$skype-hover-2x-total-height: 136px;
+$skype-hover-2x-image: '../images/sprites@2x.png';
+$skype-hover-2x: (104px, 0px, -104px, 0px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'skype_hover@2x', );
+$twitter-2x-name: 'twitter@2x';
+$twitter-2x-x: 0px;
+$twitter-2x-y: 52px;
+$twitter-2x-offset-x: 0px;
+$twitter-2x-offset-y: -52px;
+$twitter-2x-width: 32px;
+$twitter-2x-height: 32px;
+$twitter-2x-total-width: 224px;
+$twitter-2x-total-height: 136px;
+$twitter-2x-image: '../images/sprites@2x.png';
+$twitter-2x: (0px, 52px, 0px, -52px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'twitter@2x', );
+$twitter-hover-2x-name: 'twitter_hover@2x';
+$twitter-hover-2x-x: 0px;
+$twitter-hover-2x-y: 0px;
+$twitter-hover-2x-offset-x: 0px;
+$twitter-hover-2x-offset-y: 0px;
+$twitter-hover-2x-width: 32px;
+$twitter-hover-2x-height: 32px;
+$twitter-hover-2x-total-width: 224px;
+$twitter-hover-2x-total-height: 136px;
+$twitter-hover-2x-image: '../images/sprites@2x.png';
+$twitter-hover-2x: (0px, 0px, 0px, 0px, 32px, 32px, 224px, 136px, '../images/sprites@2x.png', 'twitter_hover@2x', );
+$spritesheet-width: 94px;
+$spritesheet-height: 94px;
+$spritesheet-image: '../images/sprites.png';
+$spritesheet-sprites: ($email, $facebook, $facebook-hover, $iphone, $linkedin, $linkedin-hover, $location, $rss, $rss-hover, $skype, $skype-hover, $twitter, $twitter-hover, );
+$spritesheet: (94px, 94px, '../images/sprites.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 224px;
+$retina-spritesheet-height: 136px;
+$retina-spritesheet-image: '../images/sprites@2x.png';
+$retina-spritesheet-sprites: ($email-2x, $facebook-2x, $facebook-hover-2x, $iphone-2x, $linkedin-2x, $linkedin-hover-2x, $location-2x, $rss-2x, $rss-hover-2x, $skype-2x, $skype-hover-2x, $twitter-2x, $twitter-hover-2x, );
+$retina-spritesheet: (224px, 136px, '../images/sprites@2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$email-group-name: 'email';
+$email-group: ('email', $email, $email-2x, );
+$facebook-group-name: 'facebook';
+$facebook-group: ('facebook', $facebook, $facebook-2x, );
+$facebook-hover-group-name: 'facebook_hover';
+$facebook-hover-group: ('facebook_hover', $facebook-hover, $facebook-hover-2x, );
+$iphone-group-name: 'iphone';
+$iphone-group: ('iphone', $iphone, $iphone-2x, );
+$linkedin-group-name: 'linkedin';
+$linkedin-group: ('linkedin', $linkedin, $linkedin-2x, );
+$linkedin-hover-group-name: 'linkedin_hover';
+$linkedin-hover-group: ('linkedin_hover', $linkedin-hover, $linkedin-hover-2x, );
+$location-group-name: 'location';
+$location-group: ('location', $location, $location-2x, );
+$rss-group-name: 'rss';
+$rss-group: ('rss', $rss, $rss-2x, );
+$rss-hover-group-name: 'rss_hover';
+$rss-hover-group: ('rss_hover', $rss-hover, $rss-hover-2x, );
+$skype-group-name: 'skype';
+$skype-group: ('skype', $skype, $skype-2x, );
+$skype-hover-group-name: 'skype_hover';
+$skype-hover-group: ('skype_hover', $skype-hover, $skype-hover-2x, );
+$twitter-group-name: 'twitter';
+$twitter-group: ('twitter', $twitter, $twitter-2x, );
+$twitter-hover-group-name: 'twitter_hover';
+$twitter-hover-group: ('twitter_hover', $twitter-hover, $twitter-hover-2x, );
+$retina-groups: ($email-group, $facebook-group, $facebook-hover-group, $iphone-group, $linkedin-group, $linkedin-hover-group, $location-group, $rss-group, $rss-hover-group, $skype-group, $skype-hover-group, $twitter-group, $twitter-hover-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
