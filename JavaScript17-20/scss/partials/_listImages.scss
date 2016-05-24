@@ -11,7 +11,10 @@
 }
 .images_foto {
     float: left;
-    padding: 0 15px 0 15px;
+    padding-right: 40px;
+    &:last-child{
+    padding-right: 0;
+    }
 }
 .tire {
     text-align: center;
