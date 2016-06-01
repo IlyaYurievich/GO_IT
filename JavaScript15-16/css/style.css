@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.google-logo {
+	background: url('../img/google.jpg') no-repeat;
+	margin: 0 auto;
+	width: 552px;
+    height: 250px;
+}
+form {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+.search {
+	padding: 10px;
+	width: 468px;
+	border: 1px solid rgb(185,185,185);
+    display: inline-block;
+    font: 18px arial,sans-serif;
+    position: relative;
+}
+.submit {
+	padding: 10px 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+div {
+	margin: 0 auto;
+	display: block;
+}
+ul {
+	list-style: none;
+	padding-left: 50px;
+}
+ul li {
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-family: arial, sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    color: #222;
+}
+ul li a {
+	text-decoration: none;
+	color: #1a0dab;
+	font-size: 18px;
+	line-height: 18px;
+	cursor: pointer;
+}
+ul li a:visited {
+	color: #609;
+}
