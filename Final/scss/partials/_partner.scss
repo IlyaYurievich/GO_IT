@@ -1,0 +1,52 @@
+.partner {
+	text-align: center;
+	margin-bottom: 40px;
+	span {
+		font-size:$fontSize-basess;
+		color: $dark_green;
+		display: block;
+		margin-bottom: 17px;
+	}
+	button {
+		 border-radius: 20px;
+    color: $red;
+    background: $white;
+    border: 1px solid  $red;
+    font-family: 'montserratbold';
+    font-size: 14px;
+      padding: 10px 74px;
+	}
+}
+.partner ul {
+			margin-bottom: 30px;    
+    @media #{$large-up} {
+    	width: 964px;
+    	margin: 0 auto;
+  		}
+		}
+		.partner li {
+			@media #{$medium-up} {
+   		    float: left;
+   			width: 50%;
+  		}
+  		 @media #{$large-up} {
+    	float: left;
+   		width: 25%;
+  		}
+		}
+.partner li .partner_info_foto {
+	padding-left: 45px;
+}
+.partner li .partner_info_foto_small {
+		position: relative;
+    	right: 45px;
+}
+.partner li .partner_info_text  {    
+span {
+	color: $dark_green;
+}
+p {
+	color: $grey;
+	font-family: 'robotolight';
+}
+}

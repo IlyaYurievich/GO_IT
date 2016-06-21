@@ -1,0 +1,77 @@
+.headerBg {
+  display: none;
+}
+
+.header {
+	background: url(../img/header.jpg);
+	text-align: center;
+  	background-position: 50% 50%;
+  	background-repeat:repeat no-repeat;
+  	background-size: cover; 
+	padding-top: 22px;
+	margin-bottom: 38px;
+	.logo {
+		margin: 0 auto;
+		width: 178px;
+    	height: 20px;
+		@media #{$medium-up} {
+		    float: left;
+		    padding-left: 48px;
+		}
+	
+	}
+	p {
+		font-family: 'robotolight';
+		font-size: $fontSize-small;
+		color: $white;
+		padding: 0 50px 19px 50px;
+
+	}
+	.title {
+		font-family: 'montserratbold';
+		font-size: $fontSize-base;
+		color: $white;
+	}
+
+	button {
+	background: $red;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-family: 'montserratbold';
+    font-size: 14px;
+    padding: 10px 51px;
+    margin-bottom: 125px;
+	}
+	}
+
+
+	.registrtion {
+		margin-bottom: 115px;
+		@media #{$medium-up} {
+		    float: right;
+		    padding-right: 48px;
+		}
+		
+		a {
+			color: $white;
+		padding: 10px 13px;
+		font-family: 'montserratbold';
+		font-size: $fontSize-smaller;
+		border: 2px solid transparent;
+	}
+		.registration_active {
+			border: 2px solid $white;
+		border-radius: 15px;
+		}
+		}
+	
+	.title {
+		margin-top: 20px;
+	span {
+		font-family: 'montserratbold';
+		font-size: $fontSize-larger;
+		text-transform: uppercase;
+		
+	}
+	}

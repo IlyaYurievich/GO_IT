@@ -1,0 +1,139 @@
+.footer {
+	text-align: center; 
+	/* margin: 0 auto; */
+	position: relative;
+	padding: 15px 0 18px;
+	
+	display: block; 
+}
+.title__footer {
+	a {
+		color: $crimson;
+		padding-bottom: 18px;
+		&:hover{
+			opacity: 0.7;
+			transition: all 1s; 
+		}
+	}
+}
+.company__footer,
+.partners__footer {
+	padding-top: 16px;
+	margin: 0;
+	p {
+		margin: 0;
+		a {
+			font-family: $font-base;	
+			font-size: $fontSize-small;	
+			color: $black;
+			&:hover {
+				color: $crimson;
+				opacity: 0.7;
+				transition: all 1s;
+			}
+		}
+	}
+}
+.menu {
+	margin-top: 7px;
+}
+.menu__item {
+	display: inline-block;
+	margin-right: 15px;
+	&:last-child {
+		margin: 0; 
+	}
+}
+.menu__link {
+	font-family: $font-2;	
+	font-size: $fontSize-small;	
+	color: $black;
+	display: block;
+	&:hover {
+		color: $crimson;
+	}
+}
+.logo {
+	p {
+		display: block;
+		font-family: $font-base;	
+		font-size: $fontSize-smaller;	
+		color: $light-gray;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		padding: 0;
+	}
+	img:hover {
+		opacity: 0.7;
+		transition: all 1s;
+		cursor: pointer;
+	}
+}
+@media #{$medium-up} {
+	.footer {
+		padding: 40px 0;
+		/* float: left; */
+	}
+	.title__footer {
+		padding: 0;
+
+		a {
+			padding: 0 84px 0 40px;
+		}
+	}
+	.company__footer,
+	.partners__footer {
+		float: left;
+    	padding: 5px 108px 0 0;
+	}
+	.menu {
+	    margin: 0 0 40px;
+	    padding-top: 15px;
+    	text-align: center;
+	}
+	.menu__item {
+		display: block;
+		margin: 0;
+		text-align: left;
+		padding-bottom: 12px;
+		&:last-child {
+			padding: 0;
+		}
+	}
+	.footer-partners {
+		display: inline-block;
+	}
+	.logo {
+		display: inline-block;
+		padding-top: 7px;
+    	p {
+    		margin: 0;
+    		text-align: center;
+    		padding-bottom: 10px;
+    	}
+	}	
+}
+@media #{$large-up} {
+	.title__footer {
+		padding-left: 0;
+		padding-right: 100px;
+		    float: left;
+		        margin-top: 0px;
+		a {
+			padding: 0;
+		}
+	}
+	.menu {
+	    text-align: left;
+    	margin-bottom: 35px;
+	}
+	.company__footer {
+		padding-right: 80px;
+	}
+	.partners__footer {
+		padding-right: 0;
+	}
+	.logo {
+		float: right;
+	}
+}
