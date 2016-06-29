@@ -11,14 +11,10 @@
 	padding-top: 22px;
 	margin-bottom: 38px;
 	.logo {
-		margin: 0 auto;
-		width: 178px;
-    	height: 20px;
 		@media #{$medium-up} {
 		    float: left;
 		    padding-left: 48px;
 		}
-	
 	}
 	p {
 		font-family: 'robotolight';

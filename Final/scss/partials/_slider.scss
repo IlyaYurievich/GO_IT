@@ -93,7 +93,7 @@
  height: 400px;
  overflow: hidden;
 }
-button.slick-next.slick-arrow{
+.slick-next.slick-arrow{
   display: block;
   position: relative;
   left:185px;
@@ -103,10 +103,10 @@ button.slick-next.slick-arrow{
   height: 50px;
   cursor: pointer;
 }
-button.slick-next.slick-arrow:active{
+.slick-next.slick-arrow:active{
   opacity: 0.3;
 }
-button.slick-next.slick-arrow:before{
+.slick-next.slick-arrow:before{
   background: url(../img/ico-right-arrow.png);
   position: absolute;
   width: 30px;
@@ -114,7 +114,7 @@ button.slick-next.slick-arrow:before{
   top: 352px;
   left: 0;
 }
-button.slick-prev.slick-arrow{
+.slick-prev.slick-arrow{
   display: block;
   position: relative;
   left: 23px;
@@ -124,10 +124,10 @@ button.slick-prev.slick-arrow{
   height: 50px;
   cursor: pointer;
 }
-button.slick-prev.slick-arrow:active{
+.slick-prev.slick-arrow:active{
   opacity: 0.3;
 }
-button.slick-prev.slick-arrow:before{
+.slick-prev.slick-arrow:before{
   background: url(../img/ico-left-arrow.png);
   position: absolute;
   width: 30px;
@@ -141,12 +141,12 @@ button.slick-prev.slick-arrow:before{
 .slick-next:before{
   content: '';
 }
-div.slick-list.draggable{
+.slick-list.draggable{
   position: absolute;
   top: 0;
   width: 236px;
 }
-div.slick-slide.slick-current.slick-active{
+.slick-slide.slick-current.slick-active{
   width: 236px;
   position: relative;
   top: 0;
@@ -183,6 +183,7 @@ top: 265px;
 .how_it_works{
   width: 940px;
   margin: 0 auto;
+  margin-bottom: 100px;
 } 
 .how_it_works__title{
   padding: 100px 246px 40px 325px;
@@ -195,19 +196,19 @@ top: 265px;
 .fade__img{
   width: 300px;
 }
-div.slick-list.draggable{
+.slick-list.draggable{
   width: 300px;
 }
-div.slick-slide{
+.slick-slide{
   width: 300px;
 }
-div.slick-slide.slick-current.slick-active{
+.slick-slide.slick-current.slick-active{
   width: 300px;
 }  
-button.slick-prev.slick-arrow:before{
+.slick-prev.slick-arrow:before{
   top: 45px;
 }
-button.slick-next.slick-arrow:before{
+.slick-next.slick-arrow:before{
   top: 440px;
   left: 60px;
 }
